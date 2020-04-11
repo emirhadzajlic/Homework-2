@@ -1,0 +1,29 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+#dropDown{
+    width: 150px;
+    background: white;
+    /* border-style: solid; */
+    border: solid 1px gray;
+    border-radius: 5px;
+    /* border-bottom-color: white; */
+    /* border-color: gray; */
+    position: absolute;
+    z-index: 1;
+    left: 51.3vw;
+    top: 5vw;
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+}
+/* .form-control:focus .dropDown{
+    display: flex;
+    flex-direction: column;
+} */
+.choose{
+    color: #fff;
+    background-color: #808080;
+}
