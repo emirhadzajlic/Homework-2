@@ -1,0 +1,46 @@
+body{
+    margin: 0;
+    background: #dfdaff;
+}
+p{
+    font-size: 50px;
+}
+.container{
+    background: rgb(240, 240, 240);
+    width: 330px;
+    border-radius: 25px;
+    margin: 200px auto 0 auto;
+}
+#countdown{
+    display: block;
+    width: 100px;
+    margin: 10px auto 10px auto;
+    color: rgb(75, 75, 75);
+}
+.btn1{
+    margin: 3px;
+    width: 100px;
+    height: 50px;
+    background: gray;
+    border: solid 1px gray;
+    border-radius: 25px;
+    color: white;
+    font-size: 15px;
+}
+.btn2{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: solid 1px gray;
+    margin: 10px;
+    color: rgb(75, 75, 75);
+    font-size: 15px;   
+}
+.btn2:hover{
+    background: gray;
+    color: white;
+    transition: .5s;
+}
+.container div{
+    margin-left: 40px;
+}
