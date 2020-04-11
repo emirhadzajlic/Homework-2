@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+body{
+    background: #dfdaff;
+}
+.container{
+    /* background: black; */
+    width: 80px;
+    height: 160px;
+    margin: 30px;
+    /* display: none; */
+}
+#boxes{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.container button{
+    display: block;
+    /* width: 40px;
+    height: 40px; */
+    width: 80px;
+    height: 80px;
+    font-size: 35px;
+    color: red;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    border: solid 1px white;
+}
+.container button:hover{
+    background: red;
+    color: white;
+    transition: .5s;
+}
+.container input{
+    width: 80px;
+    height: 80px;
+    text-align: center;
+    font-size: 35px;
+    border: solid 1px white;
+    background: rgb(240, 239, 239);
+}
+#num{
+    width: 350px;
+    height: 40px;
+    border: solid 1px gray;
+    border-radius: 50px;
+    display: block;
+    margin: 50px auto 0 auto;
+    font-size: 25px;
+    padding: 25px;
+    text-align: center;
+    color: red;
+}
+#num:focus{
+    background: rgb(221, 221, 221);
+    transition: .5s;
+}
+#submit{
+    color: gray;
+    width: 100px;
+    height: 40px;
+    border-radius: 50px;
+    border: solid 1px gray;
+    font-size: 15px;
+    display: block;
+    margin: 20px auto 0 auto;
+    background: white;
+}
+#submit:hover{
+    background: gray;
+    color: white;
+    transition: .5s;
+}
+#addButton{
+    display: none;
+    width: 80px;
+    height: 80px;
+    font-size: 30px;
+    margin: 20px auto 0 auto;
+    border: solid 1px white;
+    border-radius: 50%;
+    color: green;
+    font-size: 45px;
+}
+#addButton:hover{
+    background: green;
+    color: white;
+    transition: .5s;
+}
+#palindrom{
+    font-size: 30px;
+    color: gray;
+    margin: 20px;
+    position: absolute;
+    font-family: 'Audiowide', cursive;
+}
